@@ -1,4 +1,6 @@
-﻿namespace Tasks2Library
+﻿using System;
+
+namespace Tasks2Library
 {
     public class TasksHelper
     {
@@ -64,11 +66,31 @@
             }
         }
 
+        public static QuadricRoots Task4(double a, double b, double c)
+        {
+            double d = b * b - 4 * a * c;
+            if (d < 0)
+            {
+                return null;
+            }
+            else
+            {
+                QuadricRoots quadricRoots = new QuadricRoots();
+                quadricRoots.X1 = (-b - Math.Sqrt(d)) / (2 * a);
+                quadricRoots.X2 = (-b + Math.Sqrt(d)) / (2 * a);
+
+                return quadricRoots;
+            }
+
+        }
+
         private static void Swap(ref double a, ref double b)
         {
             double c = b;
             b = a;
             a = c;
         }
+
+
     }
 }
