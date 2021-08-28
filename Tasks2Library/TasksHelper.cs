@@ -20,5 +20,32 @@
 
             return result;
         }
+
+        public static int Task2(int x, int y)
+        {
+            int result;
+            if (y > 0 && x > 0)
+            {
+                result = 1;
+            }
+            else if (y < 0 && x < 0)
+            {
+                result = 3;
+            }
+            else if (y > 0 && x < 0)
+            {
+                result = 2;
+            }
+            else if (y == 0 || x == 0)
+            {
+                result = -1;
+            }
+            else
+            {
+                result = 4;
+            }
+
+            return result;
+        }
     }
 }
