@@ -84,13 +84,118 @@ namespace Tasks2Library
 
         }
 
+        public static string Task5(int a)
+        {
+            string result = string.Empty;
+            if (a >= 10 && a <= 19)
+            {
+                switch (a)
+                {
+                    case 10:
+                        result = "Ten";
+                        break;
+                    case 11:
+                        result = "Eleven";
+                        break;
+                    case 12:
+                        result = "Twelve";
+                        break;
+                    case 13:
+                        result = "Thirteen";
+                        break;
+                    case 14:
+                        result = "Fouteen";
+                        break;
+                    case 15:
+                        result = "Fifteen";
+                        break;
+                    case 16:
+                        result = "Sixteen";
+                        break;
+                    case 17:
+                        result = "Seventeen";
+                        break;
+                    case 18:
+                        result = "Eighteen";
+                        break;
+                    case 19:
+                        result = "Nineteen";
+                        break;
+
+                }
+            }
+            else
+            {
+                switch (a / 10)
+                {
+                    case 2:
+                        result = "Twenty";
+                        break;
+                    case 3:
+                        result = "Thirty";
+                        break;
+                    case 4:
+                        result = "Fourty";
+                        break;
+                    case 5:
+                        result = "Fifty";
+                        break;
+                    case 6:
+                        result = "Sixty";
+                        break;
+                    case 7:
+                        result = "Seventy";
+                        break;
+                    case 8:
+                        result = "Eighty";
+                        break;
+                    case 9:
+                        result = "Ninty";
+                        break;
+                }
+
+                switch (a % 10)
+                {
+                    case 0:
+                        break;
+                    case 1:
+                        result += " one";
+                        break;
+                    case 2:
+                        result += " two";
+                        break;
+                    case 3:
+                        result += " three";
+                        break;
+                    case 4:
+                        result += " four";
+                        break;
+                    case 5:
+                        result += " five";
+                        break;
+                    case 6:
+                        result += " six";
+                        break;
+                    case 7:
+                        result += " seven";
+                        break;
+                    case 8:
+                        result += " eight";
+                        break;
+                    case 9:
+                        result += " nine";
+                        break;
+                }
+            }
+
+            return result;
+        }
+
         private static void Swap(ref double a, ref double b)
         {
             double c = b;
             b = a;
             a = c;
         }
-
-
     }
 }
