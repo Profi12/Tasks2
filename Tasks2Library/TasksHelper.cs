@@ -47,5 +47,28 @@
 
             return result;
         }
+
+        public static void Task3(ref double a, ref double b, ref double c)
+        {
+            if (a > b)
+            {
+                Swap(ref a, ref b);
+            }
+            if (a > c)
+            {
+                Swap(ref a, ref c);
+            }
+            if (b > c)
+            {
+                Swap(ref b, ref c);
+            }
+        }
+
+        private static void Swap(ref double a, ref double b)
+        {
+            double c = b;
+            b = a;
+            a = c;
+        }
     }
 }
