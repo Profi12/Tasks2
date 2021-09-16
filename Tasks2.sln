@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_1", "Task2_1\Task2_1.csproj", "{6F21BEF9-DEFB-4384-9B90-E612831347EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2_1", "Task2_1\Task2_1.csproj", "{6F21BEF9-DEFB-4384-9B90-E612831347EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks2Library", "Tasks2Library\Tasks2Library.csproj", "{0E262029-5B27-4FE9-B7E9-0A18835032CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasks2Library", "Tasks2Library\Tasks2Library.csproj", "{0E262029-5B27-4FE9-B7E9-0A18835032CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_2", "Task2_2\Task2_2.csproj", "{C2904619-CD65-4274-B92F-AA259F33B435}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2_2", "Task2_2\Task2_2.csproj", "{C2904619-CD65-4274-B92F-AA259F33B435}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_3", "Task2_3\Task2_3.csproj", "{821D8894-2992-46B4-8E35-0D037121696F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2_3", "Task2_3\Task2_3.csproj", "{821D8894-2992-46B4-8E35-0D037121696F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_4", "Task2_4\Task2_4.csproj", "{E6D87690-94E2-432B-82D1-66F9FF32A573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2_4", "Task2_4\Task2_4.csproj", "{E6D87690-94E2-432B-82D1-66F9FF32A573}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_5", "Task2_5\Task2_5.csproj", "{A34F8A4A-103C-4834-BEAD-0A89262EDACA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2_5", "Task2_5\Task2_5.csproj", "{A34F8A4A-103C-4834-BEAD-0A89262EDACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks2_Tests", "Tasks2_Tests\Tasks2_Tests.csproj", "{12CD527E-3E01-4795-9D1E-A291E60FED7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A34F8A4A-103C-4834-BEAD-0A89262EDACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A34F8A4A-103C-4834-BEAD-0A89262EDACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A34F8A4A-103C-4834-BEAD-0A89262EDACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CD527E-3E01-4795-9D1E-A291E60FED7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CD527E-3E01-4795-9D1E-A291E60FED7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CD527E-3E01-4795-9D1E-A291E60FED7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CD527E-3E01-4795-9D1E-A291E60FED7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
