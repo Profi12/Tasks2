@@ -81,12 +81,15 @@ namespace Tasks2Library
 
                 return quadricRoots;
             }
-
         }
 
         public static string Task5(int a)
         {
             string result = string.Empty;
+            if(a < 10 || a > 99)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
             if (a >= 10 && a <= 19)
             {
                 switch (a)
