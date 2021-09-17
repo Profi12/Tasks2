@@ -50,8 +50,8 @@ namespace Tasks2_Tests
         {
             QuadricRoots roots = TasksHelper.Task4(a, b, c);
 
-            Assert.True(roots.X1 == expectedX1 || roots.X1 == expectedX2);
-            Assert.True(roots.X2 == expectedX1 || roots.X2 == expectedX2);
+            Assert.True(roots.X1 == expectedX1 || roots.X2 == expectedX1);
+            Assert.True(roots.X1 == expectedX2 || roots.X2 == expectedX2);
         }
     }
 }
